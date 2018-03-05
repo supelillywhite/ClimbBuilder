@@ -25,10 +25,10 @@ class ClimbGear extends Component {
         case ('locker'):
           gear = <div className={classes.Locker}></div>;
           break;
-        case ('rappel-device'):
+        case ('rappeldevice'):
           gear = <div className={classes.RappelDevice}></div>;
           break;
-        case ('chalk-bag'):
+        case ('chalkbag'):
           gear = <div className={classes.ChalkBag}></div>;
           break;
         default:
